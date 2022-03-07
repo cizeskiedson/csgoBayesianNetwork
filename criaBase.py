@@ -3,12 +3,6 @@
 # EDSON CIZESKI RA 107514
 # PEDRO LANDINS RA 103572
 ## year: 2022
-
-# CENARIOS DE USO
-# 1) Se um jogador tem o KD maior do que 1, qual é a sua taxa de vitória?
-# 2) Se um jogador tem mais de X assists, qual é a sua taxa de vitória?
-# 3) Se um jogador tem uma taxa de HS alta e muito dano por round, isso impacta no número de Kills?
-
 import pandas as pd
 url = 'data/tb_lobby_stats_player.csv'
 df = pd.read_csv(url)
